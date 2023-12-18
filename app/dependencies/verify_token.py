@@ -1,4 +1,3 @@
-# app/dependencies/verify_token.py
 from jose import JWTError, jwt
 from fastapi import Depends, HTTPException
 from app.core.config import SECRET_KEY, ALGORITHM
